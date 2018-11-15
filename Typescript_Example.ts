@@ -6,7 +6,7 @@ enum ShopType {
 
 interface Shop {
     shopType: ShopType;
-    calculateDiscountedPrice(normalPrice): number;
+    calculateDiscountedPrice(normalPrice:number): number;
 }
 
 class DonutShop implements Shop {

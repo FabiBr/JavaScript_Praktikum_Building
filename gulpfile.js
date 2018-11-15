@@ -4,8 +4,8 @@ const { dest } = require('gulp');
 
 function typeScriptify(cb) {
   return tsProject.src()
-        .pipe(tsProject()).js
-        .pipe(dest('./output'));
+        .pipe(tsProject())
+        .js.pipe(dest("dist"));
 }
 
 exports.default = typeScriptify;

@@ -22,7 +22,7 @@
 
 ## Nutzung
 
-> https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+> https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html  
 > https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 
 - ein File kompilieren: `tsc <filename.ts>`
